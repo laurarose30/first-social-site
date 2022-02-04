@@ -1,10 +1,11 @@
+// This file is the working file for the todo list
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import "./App.css";
-
+import View from "./View";
 import Post from "./Post";
-//import Counter from "./Counter";
+import Counter from "./Counter";
 import React, { useState, useEffect, useHistory } from "react";
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
@@ -61,5 +62,3 @@ function App() {
   );
 }
 export default App;
-
-
